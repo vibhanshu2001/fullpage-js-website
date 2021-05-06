@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Js</title>
+    <link href="http://zikro.gr/dbg/html/fullPage/jquery.fullpage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div id="fullPage">
+        <div class="section s1">
+            <h1>The First Section</h1>
+        </div>
+        <div class="section s2">
+            <h1>The Second Section</h1>
+        </div>
+        <div class="section s3">
+            <h1>The Third Section</h1>
+        </div>
+    </div> -->
+    <div id="fullpage">
+        <div class="section s1">
+            <!-- <h1>The First Section</h1> -->
+            <!-- <a href="#section3"  class="link">Go to 3</a> -->
+            <div class="slide slide1">
+                <h1>The First Slide</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="#section3"  class="link">Go to 3</a>
+            </div>
+            <div class="slide slide2">
+                <h1>The Second Slide</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="#section3"  class="link">Go to 3</a>
+            </div> 
+            <div class="slide slide3">
+                <h1>The Third Slide</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="#section3"  class="link">Go to 3</a>
+            </div>
+        </div>
+        <div class="section s2">
+            <h1>The Second Section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <a href="#section1" class="link">Go to 1</a>
+        </div>
+        <div class="section s3">
+            <h1>The Third Section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <a href="#section2"  class="link">Go to 2</a>
+        </div>
+    </div>
+
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+    <script src="http://zikro.gr/dbg/html/fullPage/jquery.fullpage.js"></script>
+    <script>
+        // new fullPage('#fullPage', {
+        //     autoScrolling: true,
+        //     navigation: true,
+        // })
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                sectionsColors: ['#f2f2f2', '#4BBFC3', '#7BAABE'],
+                navigation: true,
+                autoScrolling: true,
+                anchors: ['section1','section2','section3'],
+                navigationTooltips: ['First Section', 'Second Section', 'Third Section'],
+                showActiveTooltip: true,
+                scrollingSpeed: 1100,
+                controlArrows: false,
+                slidesNavigation: true,
+                fadingEffect: false,
+                animateAnchor: true,
+                parallax: false,
+	            parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+            });
+        });
+    </script>
+
+</body>
+
+</html>

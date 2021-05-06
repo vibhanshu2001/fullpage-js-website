@@ -1,0 +1,100 @@
+.section {
+    font-size: 3em;
+    font-family: helvetica, arial;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+.slide1{
+    background-image: url(../images/3.webp) !important;
+    // background-color: red !important;
+}
+.slide2{
+    background-image: url(https://images.unsplash.com/photo-1488240339625-c4014e114224?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhbWVyYXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60) !important;
+    background-size: cover;
+    // background-color: red !important;
+}
+.slide3{
+    background-image: url(https://images.unsplash.com/photo-1581017232275-eef66a7748f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80) !important;
+    background-size: cover;
+    // background-color: red !important;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.s1 {
+    // background: url('../images/3.webp');
+    background-size: cover;
+    .link {
+        border-radius: 8px;
+        color: #000;
+        display: inline-block;
+        font: 500 14px/16px "Roboto", sans-serif;
+        letter-spacing: .15px;
+        max-width: 255px;
+        padding: 10px 50px;
+        text-align: center;
+        white-space: nowrap;
+        background: #fff;
+        text-decoration: none;
+    }
+}
+
+.s2 {
+    background: url('../images/2.webp');
+    background-size: cover;
+
+    h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .link {
+        border-radius: 8px;
+        color: #000;
+        display: inline-block;
+        font: 500 14px/16px "Roboto", sans-serif;
+        letter-spacing: .15px;
+        max-width: 255px;
+        padding: 10px 50px;
+        text-align: center;
+        white-space: nowrap;
+        background: #fff;
+        text-decoration: none;
+    }
+}
+
+.s3 {
+    background: url('../images/1.webp');
+    background-size: cover;
+
+    h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    .link {
+        border-radius: 8px;
+        color: #000;
+        display: inline-block;
+        font: 500 14px/16px "Roboto", sans-serif;
+        letter-spacing: .15px;
+        max-width: 255px;
+        padding: 10px 50px;
+        text-align: center;
+        white-space: nowrap;
+        background: #fff;
+        text-decoration: none;
+    }
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #fff !important;
+}
+p{
+    font-size:0.4em;
+    color: #fff;
+}
